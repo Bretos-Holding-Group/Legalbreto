@@ -18,9 +18,9 @@ EXPEDIENTE MAESTRO MIGRATORIO
 
 Luis Fernando Breto Ruiz
 
-«DOCUMENTO MAESTRO
+DOCUMENTO MAESTRO
 
-Este archivo constituye el índice y mapa documental oficial del Expediente Maestro Migratorio de Luis Fernando Breto Ruiz.»
+Este archivo constituye el índice y mapa documental oficial del Expediente Maestro Migratorio de Luis Fernando Breto Ruiz.
 
 ---
 
