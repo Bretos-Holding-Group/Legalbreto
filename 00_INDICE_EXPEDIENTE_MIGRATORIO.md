@@ -1,9 +1,6 @@
 ---
 
 document_id: "00_INDICE_EXPEDIENTE_MIGRATORIO"
----
-
-document_id: "00_INDICE_EXPEDIENTE_MIGRATORIO"
 title: "Índice del Expediente Maestro Migratorio"
 subtitle: "Luis Fernando Breto Ruiz"
 version: "1.0.0"
