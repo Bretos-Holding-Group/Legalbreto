@@ -262,3 +262,9 @@ No constituye asesoría jurídica, interpretación definitiva de la legislación
 Las conclusiones jurídicas, recursos, acciones, plazos y estrategias deberán ser determinadas por un profesional habilitado después de revisar el expediente administrativo completo y la legislación vigente aplicable.
 
 ---
+
+Fin del documento
+
+Documento anterior: "00_INDICE_EXPEDIENTE_MIGRATORIO.md"
+
+Documento siguiente: "02_LINEA_TIEMPO_CASO_MIGRATORIO.md"
