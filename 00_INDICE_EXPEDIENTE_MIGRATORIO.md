@@ -2,11 +2,11 @@ EXPEDIENTE MAESTRO MIGRATORIO
 
 Luis Fernando Breto Ruiz
 
-Documento: 00_INDICE_EXPEDIENTE_MIGRATORIO
-Versión: 1.0.0
-Fecha de creación: 2026-08-07
-Estado: En construcción
-Clasificación: Documento personal para revisión jurídica
+- Documento: 00_INDICE_EXPEDIENTE_MIGRATORIO
+- Versión: 1.0.0
+- Fecha de creación: 2026-08-07
+- Estado: En construcción
+- Clasificación: Documento personal para revisión jurídica
 
 ---
 
