@@ -1,105 +1,140 @@
 ---
 
-document_id: EXPEDIENTE_MAESTRO_MIGRATORIO_00_INDICE
-title: Índice del Expediente Maestro Migratorio
-version: 1.0.0
-status: En construcción
-document_type: Índice de expediente
-classification: Documento personal para revisión jurídica
-owner: Luis Fernando Breto Ruiz
-created: 2026-08-07
-last_updated: 2026-08-07
-language: es-CL
-jurisdiction: Chile
-case_id: MIGRATORIO_LUIS_BRETO
-related_application: "75098336"
-related_resolution: "2600100434997"
-authority: Servicio Nacional de Migraciones
-review_status: Pendiente de revisión jurídica
+document_id: "00_INDICE_EXPEDIENTE_MIGRATORIO"
+---
+
+document_id: "00_INDICE_EXPEDIENTE_MIGRATORIO"
+title: "Índice del Expediente Maestro Migratorio"
+subtitle: "Luis Fernando Breto Ruiz"
+version: "1.0.0"
+status: "En construcción"
+document_type: "Expediente Index"
+classification: "Documento personal para revisión jurídica"
+owner: "Luis Fernando Breto Ruiz"
+created: "2026-08-07"
+last_updated: "2026-08-07"
+language: "es-CL"
+jurisdiction: "Chile"
+purpose: "Organización y control documental de antecedentes migratorios, administrativos, familiares y personales"
+review_status: "Pendiente de revisión jurídica profesional"
 
 ---
 
-# EXPEDIENTE MAESTRO MIGRATORIO
+---
+
+EXPEDIENTE MAESTRO MIGRATORIO
 
 Luis Fernando Breto Ruiz
+
+«Documento: "00_INDICE_EXPEDIENTE_MIGRATORIO"
+Versión: "1.0.0"
+Estado: 🟡 En construcción
+Clasificación: Documento personal para revisión jurídica
+Jurisdicción: Chile»
 
 ---
 
 1. Identificación del expediente
 
-Campo| Información
-Nombre completo| Luis Fernando Breto Ruiz
-Nacionalidad| Venezolana
-Documento de identidad| DNI venezolano V-24.898.025
-Identificador del caso| "MIGRATORIO_LUIS_BRETO"
-Solicitud de residencia temporal| ID 75098336
-Subcategoría solicitada| Residencia Temporal por Reunificación Familiar
-Resolución administrativa relacionada| Resolución Exenta N°2600100434997
-Fecha de resolución| 28-07-2026
-Autoridad| Servicio Nacional de Migraciones
+1.1 Titular
+
+Nombre completo:
+Luis Fernando Breto Ruiz
+
+Nacionalidad:
+Venezolana
+
+Documento de identidad:
+DNI venezolano V-24.898.025
+
+---
+
+1.2 Procedimiento migratorio principal
+
+Solicitud de residencia temporal:
+ID "75098336"
+
+Subcategoría solicitada:
+Residencia Temporal por Reunificación Familiar
+
+Fecha de presentación:
+23-03-2026
+
+---
+
+1.3 Resolución administrativa relacionada
+
+Resolución:
+Resolución Exenta N° "2600100434997"
+
+Fecha:
+28-07-2026
+
+Resultado:
+Inadmisibilidad por improcedente de la solicitud de residencia temporal.
+
+«Nota: La determinación de los efectos jurídicos de esta resolución y de los recursos o acciones que puedan corresponder queda reservada para la revisión de un profesional jurídico.»
 
 ---
 
 2. Objetivo del expediente
 
-El presente Expediente Maestro Migratorio tiene como finalidad organizar, preservar y presentar cronológicamente los antecedentes migratorios, administrativos, familiares y personales de Luis Fernando Breto Ruiz.
+El presente Expediente Maestro Migratorio tiene como finalidad organizar, preservar y presentar de manera estructurada los antecedentes migratorios, administrativos, familiares y personales relevantes de Luis Fernando Breto Ruiz.
 
-Su estructura está diseñada para facilitar la revisión del caso por:
+El expediente está diseñado para facilitar la revisión del caso por parte de:
 
-- abogados particulares;
+- abogados;
 - clínicas jurídicas;
 - organismos de asistencia legal;
-- instituciones públicas competentes;
-- otros profesionales autorizados por el titular.
+- autoridades competentes;
+- profesionales que requieran reconstruir cronológicamente el caso.
 
-El expediente busca separar claramente:
+2.1 Principios de organización
 
-1. hechos y antecedentes documentados;
-2. actuaciones realizadas por el titular;
-3. actuaciones de organismos públicos;
-4. documentación disponible;
-5. documentación pendiente de obtener;
-6. cuestiones jurídicas que requieren evaluación profesional.
+El expediente deberá mantener los siguientes criterios:
 
-Este índice constituye la estructura principal de navegación del expediente.
+1. Trazabilidad: cada hecho relevante deberá poder vincularse con uno o más documentos.
+2. Integridad documental: los documentos originales deberán conservarse sin modificaciones.
+3. Separación entre hechos y análisis: los antecedentes fácticos deberán distinguirse de las conclusiones jurídicas.
+4. Neutralidad documental: no se modificarán hechos para favorecer una determinada interpretación.
+5. Control de pendientes: todo antecedente faltante deberá quedar identificado explícitamente.
+6. Revisión profesional: las conclusiones jurídicas deberán ser determinadas por un profesional competente.
 
 ---
 
 3. Estructura documental
 
-01 — RESUMEN EJECUTIVO DEL CASO
-
-Archivo:
-
-"01_RESUMEN_EJECUTIVO_CASO_MIGRATORIO.md"
+3.1 "00_INDICE_EXPEDIENTE_MIGRATORIO.md"
 
 Objetivo:
+Funcionará como documento maestro de navegación y control del expediente.
 
-Presentar una síntesis general del caso, sus antecedentes principales, situación administrativa actual, documentación crítica y cuestiones pendientes de revisión.
-
-Estado: 🟡 En construcción
+Estado:
+🟢 Disponible — Documento actual
 
 ---
 
-02 — LÍNEA DE TIEMPO DEL CASO
-
-Archivo:
-
-"02_LINEA_TIEMPO_CASO_MIGRATORIO.md"
+3.2 "01_RESUMEN_EJECUTIVO_CASO_MIGRATORIO.md"
 
 Objetivo:
+Presentar una síntesis general del caso, sus antecedentes principales, actuaciones administrativas conocidas, documentación disponible y situación actual.
 
-Registrar cronológicamente los hechos, actuaciones administrativas, comunicaciones y acontecimientos relevantes del caso migratorio.
-
-Estado: 🟡 En construcción
+Estado:
+🟢 Elaborado — Pendiente de revisión jurídica
 
 ---
 
-03 — IDENTIFICACIÓN Y DOCUMENTOS PERSONALES
+3.3 "02_LINEA_TIEMPO_CASO_MIGRATORIO.md"
 
-Directorio:
+Objetivo:
+Registrar cronológicamente los hechos y actuaciones administrativas relevantes del caso.
 
-"03_IDENTIFICACION_Y_DOCUMENTOS_PERSONALES/"
+Estado:
+🟢 Elaborado — Pendiente de revisión documental
+
+---
+
+3.4 "03_IDENTIFICACION_Y_DOCUMENTOS_PERSONALES/"
 
 Contenido esperado:
 
@@ -107,301 +142,306 @@ Contenido esperado:
 - Antecedentes personales.
 - Datos de contacto.
 - Documentos civiles relevantes.
-- Documentos de identificación complementarios.
+- Copias de documentos utilizados en trámites migratorios.
 
-Estado: 🟡 En recopilación
+Estado:
+🟡 En recopilación
 
 ---
 
-04 — INGRESO A CHILE Y PROCEDIMIENTO INICIAL
-
-Directorio:
-
-"04_INGRESO_A_CHILE_Y_PROCEDIMIENTO_INICIAL/"
+3.5 "04_INGRESO_A_CHILE_Y_PROCEDIMIENTO_INICIAL/"
 
 Contenido esperado:
 
 - Acta PDI Colchane de fecha 11-05-2024.
 - Notificación de inicio del procedimiento sancionatorio.
-- Carta de descargos.
-- Comprobantes de recepción.
-- Otros antecedentes correspondientes a la actuación inicial en frontera.
+- Carta de descargos presentada ante SERMIG.
+- Comprobantes o antecedentes de recepción.
+- Cualquier documento adicional relacionado con la actuación inicial en frontera.
 
-Estado: 🟡 Parcialmente disponible
+Estado:
+🟡 Parcialmente disponible
 
 ---
 
-05 — PROCEDIMIENTO SANCIONATORIO DE EXPULSIÓN
-
-Directorio:
-
-"05_PROCEDIMIENTO_SANCIONATORIO_EXPULSION/"
+3.6 "05_PROCEDIMIENTO_SANCIONATORIO_EXPULSION/"
 
 Contenido esperado:
 
-- Parte Policial N°16177 de fecha 18-11-2024.
-- Expediente administrativo del procedimiento sancionatorio.
+- Parte Policial N° "16177" de fecha 18-11-2024.
 - Resoluciones administrativas asociadas.
 - Notificaciones.
-- Descargos y antecedentes presentados.
+- Descargos y antecedentes acompañados.
 - Estado actual del procedimiento.
-- Eventual decreto de expulsión.
-- Eventuales medidas administrativas asociadas.
+- Eventual resolución final.
+- Eventual decreto de expulsión u otra medida administrativa relacionada.
 
-Estado: ❌ Información oficial pendiente de solicitar
+Estado:
+🔴 Pendiente de obtención del expediente oficial
 
-Prioridad: 🔴 Crítica
+«Prioridad: CRÍTICA»
 
 ---
 
-06 — ANTECEDENTES DE REGULARIZACIÓN PDI
-
-Directorio:
-
-"06_ANTECEDENTES_REGULARIZACION_PDI/"
+3.7 "06_ANTECEDENTES_REGULARIZACION_PDI/"
 
 Contenido esperado:
 
-- Declaración voluntaria de ingreso clandestino N°33763535.
-- Comunicación de recepción de fecha 26-10-2025.
-- Citación PDI de fecha 05-02-2026.
-- Antecedentes relativos a la citación del 06-02-2026.
-- Declaración voluntaria de ingreso clandestino N°34103883.
-- Comunicaciones posteriores.
-- Resultado de los procedimientos, cuando sea obtenido.
+- Declaración voluntaria de ingreso clandestino N° "33763535".
+- Citación PDI de febrero de 2026.
+- Antecedentes relacionados con la citación del 06-02-2026.
+- Declaración voluntaria de ingreso clandestino N° "34103883".
+- Comunicaciones posteriores de PDI.
+- Resultado de los trámites, cuando sea obtenido.
 
-Estado: 🟡 Documentación parcialmente disponible
+Estado:
+🟡 Documentación parcialmente disponible
 
 ---
 
-07 — VÍNCULO FAMILIAR Y ACUERDO DE UNIÓN CIVIL
-
-Directorio:
-
-"07_VINCULO_FAMILIAR_ACUERDO_UNION_CIVIL/"
+3.8 "07_VINCULO_FAMILIAR_ACUERDO_UNION_CIVIL/"
 
 Contenido esperado:
 
 - Certificado de Acuerdo de Unión Civil.
 - Antecedentes del vínculo con ciudadana chilena.
-- Identificación de la conviviente civil.
 - Documentación civil complementaria.
-- Comunicación de SERMIG sobre validación del vínculo.
-- Evidencia de validación del vínculo ante SERMIG.
+- Comunicaciones de SERMIG relacionadas con la validación del vínculo.
+- Evidencia disponible de la validación realizada mediante el portal.
 
-Estado: ✅ Documentación disponible
+Estado:
+🟢 Documentación disponible
 
 ---
 
-08 — SOLICITUD DE RESIDENCIA TEMPORAL ID 75098336
-
-Directorio:
-
-"08_SOLICITUD_RESIDENCIA_TEMPORAL_ID75098336/"
+3.9 "08_SOLICITUD_RESIDENCIA_TEMPORAL_ID75098336/"
 
 Contenido esperado:
 
 - Solicitud presentada el 23-03-2026.
 - Comprobante de envío.
+- Correos electrónicos de SERMIG.
 - Comunicación de validación del vínculo.
-- Confirmación de recepción de la solicitud.
-- Documentos acompañados a la solicitud.
-- Historial de estados del trámite.
-- Comunicaciones administrativas relacionadas.
+- Evidencia de la validación.
+- Historial disponible del portal de trámites.
+- Antecedentes acompañados a la solicitud.
+- Certificados relacionados.
 
-Estado: ✅ Documentación disponible
+Estado:
+🟢 Documentación disponible — pendiente de consolidación completa
 
 ---
 
-09 — RESOLUCIÓN DE INADMISIBILIDAD N°2600100434997
-
-Directorio:
-
-"09_RESOLUCION_INADMISIBILIDAD_2600100434997/"
+3.10 "09_RESOLUCION_INADMISIBILIDAD_2600100434997/"
 
 Contenido esperado:
 
-- Resolución Exenta N°2600100434997.
+- Resolución Exenta N° "2600100434997".
 - Correo de notificación SERMIG de fecha 28-07-2026.
-- Antecedentes citados en la resolución.
-- Registro de fecha y hora de notificación.
-- Documentos complementarios relacionados.
+- Copia íntegra de la resolución.
+- Antecedentes utilizados o citados por la resolución.
+- Evidencia de fecha y forma de notificación.
 
-Estado: ✅ Documentación disponible
+Estado:
+🟢 Documentación disponible
 
 ---
 
-10 — ANÁLISIS JURÍDICO PARA REVISIÓN
-
-Directorio:
-
-"10_ANALISIS_JURIDICO_PARA_REVISION/"
+3.11 "10_ANALISIS_JURIDICO_PARA_REVISION/"
 
 Contenido esperado:
 
 - Preguntas jurídicas.
 - Puntos controvertidos.
-- Normativa potencialmente aplicable.
+- Normas citadas por SERMIG.
 - Antecedentes relevantes.
-- Posibles inconsistencias documentales.
-- Cuestiones procesales.
-- Plazos que requieren determinación profesional.
-- Observaciones para abogado.
-- Recursos o acciones a evaluar por profesional competente.
+- Posibles inconsistencias para revisión profesional.
+- Recursos administrativos potencialmente aplicables.
+- Acciones judiciales potencialmente aplicables.
+- Plazos que deban ser verificados.
+- Observaciones para el abogado.
 
-Estado: 🟡 Pendiente de elaboración
+Estado:
+🟡 Pendiente de elaboración
 
-Nota: Este directorio no deberá contener conclusiones jurídicas definitivas sin revisión profesional.
+«Regla: Este directorio no deberá contener conclusiones jurídicas definitivas mientras no hayan sido revisadas por un profesional.»
 
 ---
 
-11 — COMUNICACIONES Y GESTIONES
-
-Directorio:
-
-"11_COMUNICACIONES_Y_GESTIONES/"
+3.12 "11_COMUNICACIONES_Y_GESTIONES/"
 
 Contenido esperado:
 
 - Correos enviados.
-- Correos recibidos.
 - Solicitudes de información.
 - Solicitudes de acceso a antecedentes.
 - Contacto con clínicas jurídicas.
-- Contacto con abogados.
+- Comunicaciones con abogados.
 - Respuestas institucionales.
-- Comprobantes de presentación.
-- Seguimiento de gestiones.
+- Constancias de gestiones realizadas.
+- Registro de fechas y resultados.
 
-Estado: 🟡 En construcción
+Estado:
+🟡 En construcción
 
 ---
 
-12 — ANEXOS
-
-Directorio:
-
-"12_ANEXOS/"
+3.13 "12_ANEXOS/"
 
 Contenido esperado:
 
 - Copias adicionales.
 - Evidencias complementarias.
-- Capturas de pantalla.
 - Documentos secundarios.
+- Capturas de pantalla.
 - Material de respaldo.
-- Evidencia cuya ubicación no corresponda a los directorios principales.
+- Documentos que no correspondan directamente a otra sección.
 
-Estado: 🟡 Pendiente
+Estado:
+🟡 Pendiente de organización
 
 ---
 
 4. Estado general del expediente
 
-Área| Estado| Prioridad
-Identificación| 🟡 Parcial| Alta
-Ingreso a Chile| ✅ Documentado| Alta
-Procedimiento sancionatorio| ❌ Pendiente expediente oficial| 🔴 Crítica
-Parte Policial N°16177| ❌ Pendiente| 🔴 Crítica
-Regularización PDI| 🟡 Parcialmente documentado| Alta
-Vínculo familiar| ✅ Documentado| Alta
-Solicitud de residencia| ✅ Documentado| 🔴 Crítica
-Resolución de inadmisibilidad| ✅ Documentado| 🔴 Crítica
-Análisis jurídico| 🟡 Pendiente| 🔴 Crítica
-Comunicaciones y gestiones| 🟡 En construcción| Media
-Anexos| 🟡 Pendiente| Media
+Área| Estado| Observación
+Índice maestro| 🟢 Disponible| Documento actual
+Resumen ejecutivo| 🟢 Elaborado| Pendiente revisión jurídica
+Línea de tiempo| 🟢 Elaborada| Pendiente revisión documental
+Identificación| 🟡 Parcial| Requiere consolidación
+Ingreso a Chile| 🟢 Documentado| Acta y descargos disponibles
+Procedimiento sancionatorio| 🔴 Pendiente| Requiere expediente oficial
+Regularización PDI| 🟡 Parcial| Existen comunicaciones y números de trámite
+Vínculo familiar| 🟢 Documentado| AUC acreditado
+Solicitud de residencia| 🟢 Documentado| ID 75098336
+Resolución de inadmisibilidad| 🟢 Documentado| Resolución íntegra disponible
+Análisis jurídico| 🟡 Pendiente| Revisión profesional requerida
+Comunicaciones y gestiones| 🟡 En construcción| Debe consolidarse
+Anexos| 🟡 Pendiente| Organización posterior
+
+Leyenda de estados
+
+- 🟢 Documentado / disponible
+- 🟡 En construcción / parcial / pendiente de revisión
+- 🔴 Crítico / antecedente oficial pendiente
 
 ---
 
-5. Documentación crítica pendiente
+5. Documentos críticos pendientes
 
-Los siguientes antecedentes deben considerarse prioritarios antes de cerrar el expediente para revisión jurídica:
+Los siguientes antecedentes tienen prioridad dentro de la construcción del expediente:
 
-5.1 Expediente sancionatorio de 2024
+CRÍTICO 01 — Expediente sancionatorio de 2024
 
 Obtener el expediente completo correspondiente al procedimiento iniciado en Colchane el 11-05-2024.
 
-5.2 Parte Policial N°16177
+---
 
-Obtener copia íntegra del Parte Policial N°16177 de fecha 18-11-2024, citado expresamente por SERMIG en la Resolución N°2600100434997.
+CRÍTICO 02 — Parte Policial N°16177
 
-5.3 Resultado del procedimiento sancionatorio
+Obtener copia íntegra del Parte Policial N°16177, fechado el 18-11-2024 y citado expresamente por la Resolución Exenta N°2600100434997.
 
-Determinar si existe:
+---
 
-- resolución final;
+CRÍTICO 03 — Estado de eventual procedimiento o medida de expulsión
+
+Determinar documentalmente si existe:
+
+- resolución final del procedimiento sancionatorio;
 - decreto de expulsión;
-- medida administrativa;
-- archivo;
-- suspensión;
-- otro acto administrativo relacionado.
-
-5.4 Estado migratorio actual
-
-Obtener antecedentes oficiales que permitan determinar la situación migratoria vigente del titular y la eventual existencia de medidas administrativas pendientes.
-
-5.5 Expediente administrativo de la solicitud ID 75098336
-
-Obtener, en la medida legalmente procedente, los antecedentes administrativos utilizados para resolver la solicitud de residencia temporal.
+- orden o medida vigente;
+- prohibición de ingreso;
+- procedimiento pendiente;
+- otra actuación administrativa relacionada.
 
 ---
 
-6. Reglas de organización documental
+CRÍTICO 04 — Expediente administrativo de solicitud ID 75098336
 
-Todo documento incorporado al expediente deberá cumplir, en lo posible, las siguientes reglas:
-
-1. Mantener el documento original sin modificaciones.
-2. Conservar una copia digital de respaldo.
-3. Registrar la fecha del documento.
-4. Registrar la autoridad emisora.
-5. Registrar el número de expediente, folio o trámite cuando exista.
-6. Evitar sobrescribir documentos originales.
-7. Registrar cualquier discrepancia documental.
-8. Diferenciar hechos acreditados de declaraciones personales.
-9. No alterar documentos oficiales para corregir errores.
-10. Mantener trazabilidad entre cada documento y el hecho que acredita.
+Obtener, en la medida legalmente accesible, los antecedentes administrativos utilizados para resolver la solicitud de Residencia Temporal por Reunificación Familiar.
 
 ---
 
-7. Convención de estados
+6. Próximos pasos
 
-Símbolo| Significado
-✅| Documentación disponible y localizada
-🟡| Parcial, en construcción o pendiente de completar
-❌| Información crítica pendiente de obtener
-🔴| Prioridad crítica
-⚪| No iniciado
-
----
-
-8. Próximos pasos
+Fase 1 — Consolidación documental
 
 1. Finalizar "01_RESUMEN_EJECUTIVO_CASO_MIGRATORIO.md".
-2. Finalizar "02_LINEA_TIEMPO_CASO_MIGRATORIO.md".
-3. Crear la estructura interna de "03_IDENTIFICACION_Y_DOCUMENTOS_PERSONALES/".
-4. Organizar los documentos originales disponibles.
-5. Crear el expediente del procedimiento sancionatorio en "05_PROCEDIMIENTO_SANCIONATORIO_EXPULSION/".
-6. Preparar solicitudes para obtener el Parte Policial N°16177 y el expediente sancionatorio.
-7. Completar los antecedentes PDI.
-8. Construir posteriormente "10_ANALISIS_JURIDICO_PARA_REVISION/".
-9. Realizar una auditoría final de coherencia documental antes de entregar el expediente a un abogado.
+2. Finalizar y verificar "02_LINEA_TIEMPO_CASO_MIGRATORIO.md".
+3. Organizar los documentos físicos y digitales existentes.
+4. Asignar nombres uniformes a los archivos.
+5. Registrar cada documento en el índice correspondiente.
+
+Fase 2 — Recuperación de antecedentes oficiales
+
+6. Solicitar el expediente completo del procedimiento sancionatorio iniciado en Colchane.
+7. Solicitar el Parte Policial N°16177.
+8. Determinar el estado actual de cualquier procedimiento o medida de expulsión.
+9. Solicitar, cuando corresponda, los antecedentes administrativos de la solicitud ID 75098336.
+
+Fase 3 — Preparación jurídica
+
+10. Consolidar "10_ANALISIS_JURIDICO_PARA_REVISION/".
+11. Identificar los plazos legales aplicables.
+12. Preparar un paquete documental para abogado.
+13. Entregar el expediente completo para revisión profesional.
 
 ---
 
-9. Control de versión
+7. Control de integridad documental
 
-Versión| Fecha| Cambio| Responsable
-1.0.0| 2026-08-07| Creación inicial del índice maestro| Luis Fernando Breto Ruiz
+Todo documento incorporado al expediente deberá conservar:
+
+- nombre original del archivo, cuando sea relevante;
+- copia digital íntegra;
+- fecha de obtención;
+- fuente;
+- autoridad emisora;
+- relación con el caso;
+- observaciones sobre autenticidad o verificación;
+- ubicación dentro del expediente.
+
+Cuando exista una discrepancia entre documentos, esta deberá registrarse expresamente y no corregirse de manera silenciosa.
 
 ---
 
-10. Navegación del expediente
+8. Estado del documento
 
-Documento actual:
+Documento: "00_INDICE_EXPEDIENTE_MIGRATORIO"
+Versión: "1.0.0"
+Estado: 🟡 En construcción
+Última actualización: "2026-08-07"
 
-"00_INDICE_EXPEDIENTE_MIGRATORIO.md"
+Este documento deberá actualizarse cada vez que:
 
-Documento siguiente:
+- se incorpore un nuevo documento crítico;
+- cambie el estado de un componente del expediente;
+- se obtenga información oficial pendiente;
+- se modifique la estructura documental;
+- exista una actuación jurídica relevante.
+
+---
+
+9. Navegación del expediente
+
+Orden| Documento / Directorio| Estado
+00| "00_INDICE_EXPEDIENTE_MIGRATORIO.md"| 🟢
+01| "01_RESUMEN_EJECUTIVO_CASO_MIGRATORIO.md"| 🟢
+02| "02_LINEA_TIEMPO_CASO_MIGRATORIO.md"| 🟢
+03| "03_IDENTIFICACION_Y_DOCUMENTOS_PERSONALES/"| 🟡
+04| "04_INGRESO_A_CHILE_Y_PROCEDIMIENTO_INICIAL/"| 🟡
+05| "05_PROCEDIMIENTO_SANCIONATORIO_EXPULSION/"| 🔴
+06| "06_ANTECEDENTES_REGULARIZACION_PDI/"| 🟡
+07| "07_VINCULO_FAMILIAR_ACUERDO_UNION_CIVIL/"| 🟢
+08| "08_SOLICITUD_RESIDENCIA_TEMPORAL_ID75098336/"| 🟢
+09| "09_RESOLUCION_INADMISIBILIDAD_2600100434997/"| 🟢
+10| "10_ANALISIS_JURIDICO_PARA_REVISION/"| 🟡
+11| "11_COMUNICACIONES_Y_GESTIONES/"| 🟡
+12| "12_ANEXOS/"| 🟡
+
+---
+
+10. Documento siguiente
 
 "01_RESUMEN_EJECUTIVO_CASO_MIGRATORIO.md"
 
