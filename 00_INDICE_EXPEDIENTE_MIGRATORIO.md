@@ -14,6 +14,8 @@ created: "2026-08-07"
 last_updated: "2026-08-07"
 review_status: "Pendiente de revisión jurídica profesional"
 
+---
+
 EXPEDIENTE MAESTRO MIGRATORIO
 
 Luis Fernando Breto Ruiz
