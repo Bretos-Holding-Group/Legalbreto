@@ -26,276 +26,141 @@ document_id:
 title:
 subtitle:
 version:
-status:
-document_type:
-classification:
-owner:
-jurisdiction:
-language:
-created:
-last_updated:
-review_status:
-parent_document:
-previous_document:
-next_document:
-case_type:
-primary_authority:
-related_authorities:
-critical_pending_evidence:
-integrity_rule:
 
-Verifica:
-
-- existencia;
-- sintaxis YAML válida;
-- consistencia;
-- idioma español;
-- coherencia entre documentos;
-- referencias correctas;
-- navegación anterior/siguiente;
-- ausencia de metadata inventada.
-
-Reporta cualquier incumplimiento.
-
-==================================================
-2. VALIDACIÓN DEL STANDARD MIGRACION
-==================================================
-
-Todos los documentos deberán cumplir esta estructura visual mínima:
-
-YAML FRONT MATTER
-
-# TÍTULO PRINCIPAL
-
-## SUBTÍTULO
-
-> **ESTADO DEL DOCUMENTO**
-
----
-
-## SECCIÓN PRINCIPAL
-
-### Subsección
-
----
-
-## OTRA SECCIÓN
-
-Las secciones deberán utilizar jerarquía Markdown real.
-
-No aceptes:
-
-- títulos escritos solamente como texto;
-- separadores usados como sustituto de títulos;
-- numeración plana sin jerarquía;
-- tablas sin encabezados Markdown;
-- metadata escrita fuera del YAML;
-- documentos sin estructura visual.
-
-==================================================
-3. VALIDACIÓN DE ARQUITECTURA
-==================================================
-
-Determina si cada uno de los siguientes dominios contiene suficiente documentación para cumplir su propósito:
-
-00_INDICE_EXPEDIENTE_MIGRATORIO
-
-01_RESUMEN_EJECUTIVO_CASO_MIGRATORIO
-
-02_LINEA_TIEMPO_CASO_MIGRATORIO
-
-03_IDENTIFICACION_Y_DOCUMENTOS_PERSONALES
-
-04_INGRESO_A_CHILE_Y_PROCEDIMIENTO_INICIAL
-
-05_PROCEDIMIENTO_SANCIONATORIO_EXPULSION
-
-06_ANTECEDENTES_REGULARIZACION_PDI
-
-07_VINCULO_FAMILIAR_ACUERDO_UNION_CIVIL
-
-08_SOLICITUD_RESIDENCIA_TEMPORAL_ID75098336
-
-09_RESOLUCION_INADMISIBILIDAD_2600100434997
-
-10_ANALISIS_JURIDICO_PARA_REVISION
-
-11_COMUNICACIONES_Y_GESTIONES
-
-12_ANEXOS
-
-No consideres suficiente que un directorio contenga solamente README.md.
-
-Determina qué documentación adicional requiere cada dominio.
-
-==================================================
-4. VALIDACIÓN DE TRAZABILIDAD
-==================================================
-
-Para cada hecho relevante determina si existe una relación trazable:
-
-HECHO
-→ DOCUMENTO
-→ DIRECTORIO
-→ REFERENCIA EN LÍNEA DE TIEMPO
-→ REFERENCIA EN RESUMEN
-→ POSIBLE RELEVANCIA JURÍDICA
-
-Identifica:
-
-- hechos sin documento;
-- documentos sin relación con hechos;
-- referencias rotas;
-- documentos mencionados pero inexistentes;
-- información pendiente de obtener;
-- información que no debe afirmarse como hecho probado.
-
-==================================================
-5. VALIDACIÓN DE EVIDENCIA
-==================================================
-
-Clasifica cada antecedente relevante como:
-
-A — DOCUMENTADO DIRECTAMENTE
-
-B — DOCUMENTADO INDIRECTAMENTE
-
-C — DECLARADO POR EL TITULAR
-
-D — PENDIENTE DE OBTENCIÓN
-
-E — REQUIERE REVISIÓN JURÍDICA
-
-No conviertas nunca B, C, D o E en evidencia A.
-
-==================================================
-6. VALIDACIÓN DE INFORMACIÓN CRÍTICA
-==================================================
-
-Comprueba específicamente:
-
-- Acta PDI de Colchane 11-05-2024.
-- Carta de descargos.
-- Parte Policial N°16177.
-- Procedimiento sancionatorio iniciado en 2024.
-- Resultado del procedimiento sancionatorio.
-- Eventual decreto de expulsión.
-- Declaración voluntaria N°33763535.
-- Citación PDI febrero 2026.
-- Declaración voluntaria N°34103883.
-- Acuerdo de Unión Civil.
-- Solicitud ID 75098336.
-- Validación del vínculo chileno.
-- Resolución Exenta N°2600100434997.
-- Notificación de 28-07-2026.
-
-Determina cuáles están disponibles y cuáles solamente están referenciados.
-
-==================================================
-7. VALIDACIÓN DE INTEGRIDAD
-==================================================
-
-No inventes:
-
-- documentos;
-- fechas;
-- números de expediente;
-- resoluciones;
-- actuaciones administrativas;
-- resultados;
-- fundamentos jurídicos;
-- estados procesales.
-
-Cuando falte información escribe:
-
-"PENDIENTE DE OBTENCIÓN"
-
-Cuando exista una afirmación del titular sin respaldo documental escribe:
-
-"ANTECEDENTE DECLARADO — PENDIENTE DE CORROBORACIÓN"
-
-Cuando un documento solamente sea conocido porque otra autoridad lo cita escribe:
-
-"ANTECEDENTE DOCUMENTALMENTE REFERENCIADO — COPIA PENDIENTE"
-
-==================================================
-8. VALIDACIÓN DE NAVEGACIÓN
-==================================================
-
-Verifica que:
-
-00 → 01 → 02 → 03 → ... → 12
-
-tenga navegación coherente.
-
-Verifica también que los documentos secundarios indiquen correctamente:
-
-parent_document:
-previous_document:
-next_document:
-
-No permitas referencias a archivos inexistentes.
-
-==================================================
-9. VALIDACIÓN PARA EXPORTACIÓN PDF
-==================================================
-
-Determina si los documentos actuales pueden convertirse posteriormente a PDF sin perder:
-
-- jerarquía;
-- títulos;
-- tablas;
-- advertencias;
-- metadata;
-- referencias;
-- numeración;
-- navegación.
-
-Identifica problemas que deban corregirse antes de la exportación.
-
-==================================================
-10. ENTREGABLE
-
-NO MODIFIQUES ARCHIVOS TODAVÍA.
-
-Genera únicamente un informe:
-
-AUDITORIA_ESTRUCTURAL_EXPEDIENTE_MIGRATORIO.md
-
-Debe contener:
 
 # AUDITORÍA ESTRUCTURAL DEL EXPEDIENTE MAESTRO MIGRATORIO
 
+Fecha: 2026-08-07
+
 ## 1. Resultado general
+
+Estado: PASS_WITH_FIXES
+
+Resumen: La estructura base del expediente `EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/` fue creada y contiene archivos con YAML front matter y contenido inicial. Sin embargo hay inconsistencias de formato en metadata de navegación, ausencia de bloques de estado visual exigidos por el estándar, y la mayoría de los documentos de soporte (copias, resoluciones, partes policiales, actas) no están incorporados. Se recomienda corregir metadatos de navegación, añadir el bloque de estado en cada documento, y obtener o referenciar copias de la evidencia crítica listada.
 
 ## 2. Archivos auditados
 
+- EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/00_INDICE_EXPEDIENTE_MIGRATORIO.md
+- EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/01_RESUMEN_EJECUTIVO_CASO_MIGRATORIO.md
+- EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/02_LINEA_TIEMPO_CASO_MIGRATORIO.md
+- EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/03_IDENTIFICACION_Y_DOCUMENTOS_PERSONALES/README.md
+- EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/04_INGRESO_A_CHILE_Y_PROCEDIMIENTO_INICIAL/README.md
+- EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/05_PROCEDIMIENTO_SANCIONATORIO_EXPULSION/README.md
+- EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/06_ANTECEDENTES_REGULARIZACION_PDI/README.md
+- EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/07_VINCULO_FAMILIAR_ACUERDO_UNION_CIVIL/README.md
+- EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/08_SOLICITUD_RESIDENCIA_TEMPORAL_ID75098336/README.md
+- EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/09_RESOLUCION_INADMISIBILIDAD_2600100434997/README.md
+- EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/10_ANALISIS_JURIDICO_PARA_REVISION/README.md
+- EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/11_COMUNICACIONES_Y_GESTIONES/README.md
+- EXPEDIENTE_MAESTRO_MIGRATORIO_LUIS_BRETO/12_ANEXOS/README.md
+
 ## 3. Cumplimiento del Standard Migración
+
+- Front matter YAML: PRESENTE en todos los archivos auditados y con sintaxis válida.
+- Título principal (`#`): PRESENTE en todos los documentos.
+- Subtítulos (`##`): PRESENTES en todos los documentos.
+- Bloque `> **ESTADO DEL DOCUMENTO**`: AUSENTE en la mayoría de los archivos; se utilizan citas (`>`) para observaciones pero no el formato exacto exigido.
+- Separadores `---`: PRESENTES como delimitadores de YAML; no hay uso consistente de separadores entre secciones del cuerpo.
+- Jerarquía Markdown (`###`): USADA de forma limitada; la estructura básica está, pero falta uniformidad entre documentos.
+- Tablas: USADAS en `00_INDICE` y `02_LINEA_TIEMPO` correctamente (con encabezados).
+
+Conclusión: cumplimiento parcial — requiere ajustes visuales concretos (estado del documento, separadores y jerarquía uniforme).
 
 ## 4. Cumplimiento de metadata
 
+- Campos obligatorios (lista completa indicada en el estándar): PRESENTES en todos los archivos auditados.
+- Sintaxis YAML: VÁLIDA en todos los casos analizados.
+- Idioma: `language: "es-CL"` presente en todos los archivos.
+- Coherencia: en general coherente, salvo diferencias en el formato de referencias de navegación:
+	- Ejemplos: `00` usa `next_document: "01_RESUMEN_EJECUTIVO_CASO_MIGRATORIO"` (sin extensión ni path), mientras que varios `next_document` usan rutas completas con `README.md` (por ejemplo `03.../README.md`).
+	- Recomendación: normalizar el formato de `parent_document`/`previous_document`/`next_document` a un único estilo (recomendado: ruta relativa dentro del repositorio, p. ej. `03_IDENTIFICACION_Y_DOCUMENTOS_PERSONALES/README.md`).
+
 ## 5. Cumplimiento de arquitectura documental
+
+- Estructura de carpetas creada según requerimiento.
+- Cada área contiene un `README.md` con la metadata y una descripción inicial.
+- Observación crítica: varios dominios se apoyan únicamente en `README.md` sin documentos fuente (resoluciones, copias, partes, comunicaciones). Según la norma del proyecto, esto NO ES SUFICIENTE.
+
+Requerimientos adicionales por dominio (resumen):
+- 03_IDENTIFICACION: incorporar copias digitalizadas de cédula o pasaporte.
+- 04_INGRESO_A_CHILE: registrar documentos de ingreso, sellos, o actas.
+- 05_PROCEDIMIENTO_SANCIONATORIO: incorporar expediente sancionatorio completo y resoluciones.
+- 06_PDI: subir actas, partes policiales o comunicaciones PDI.
+- 07_VINCULO_FAMILIAR: adjuntar copia del Acuerdo de Unión Civil y documentos de la pareja.
+- 08_SOLICITUD_RESIDENCIA: incorporar la solicitud completa y anexos.
+- 09_RESOLUCION: incorporar texto íntegro de la Resolución Exenta N°2600100434997.
+- 11_COMUNICACIONES y 12_ANEXOS: poblar con correos, notificaciones y anexos.
 
 ## 6. Problemas encontrados
 
+- Inconsistencia de formato en campos de navegación (`next_document`, `previous_document`, `parent_document`).
+- Ausencia sistemática del bloque `> **ESTADO DEL DOCUMENTO**` exigido por el estándar.
+- Estructura mínima de documentos presente, pero sin documentos fuente (resoluciones, partes, actas) que permitan afirmar hechos.
+- Directorios que contienen sólo `README.md` (no suficiente según regla del expediente).
+
 ## 7. Referencias rotas
+
+- No se encontraron enlaces apuntando a archivos inexistentes entre los revisados: los enlaces en el cuerpo y los `README.md` referencian archivos que existen actualmente.
+- Nota: la inconsistencia de formato en metadatos de navegación no produjo referencias técnicamente rotas en esta revisión, pero puede provocar problemas en herramientas automatizadas de navegación o exportación si no se normaliza.
 
 ## 8. Evidencia faltante
 
+Clasificación de elementos críticos (A/B/C/D/E):
+- Acta PDI de Colchane 11-05-2024: D — PENDIENTE DE OBTENCIÓN
+- Carta de descargos: D — PENDIENTE DE OBTENCIÓN
+- Parte Policial N°16177: D — PENDIENTE DE OBTENCIÓN
+- Procedimiento sancionatorio iniciado en 2024: D — PENDIENTE DE OBTENCIÓN
+- Resultado del procedimiento sancionatorio: D — PENDIENTE DE OBTENCIÓN
+- Eventual decreto de expulsión: D — PENDIENTE DE OBTENCIÓN
+- Declaración voluntaria N°33763535: D — PENDIENTE DE OBTENCIÓN
+- Citación PDI febrero 2026: D — PENDIENTE DE OBTENCIÓN
+- Declaración voluntaria N°34103883: D — PENDIENTE DE OBTENCIÓN
+- Acuerdo de Unión Civil: B — DOCUMENTADO INDIRECTAMENTE (mencionado en índice y resumen) — COPIA PENDIENTE
+- Solicitud ID 75098336: B — DOCUMENTADO INDIRECTAMENTE (ID presente) — COPIA PENDIENTE
+- Validación del vínculo chileno: D — PENDIENTE DE OBTENCIÓN
+- Resolución Exenta N°2600100434997: B — DOCUMENTADO INDIRECTAMENTE (número/fecha mencionados) — COPIA PENDIENTE
+- Notificación de 28-07-2026: D/B según evidencia disponible (fecha referenciada; copia pendiente)
+
+Observación: ninguna de las pruebas críticas A-E fue incorporada como `A — DOCUMENTADO DIRECTAMENTE` en el conjunto de archivos auditados.
+
 ## 9. Documentos que deben crearse
+
+- Copia íntegra de la Resolución Exenta N°2600100434997 (en `09_RESOLUCION...`).
+- Carpeta de anexos con la solicitud completa `08_SOLICITUD_RESIDENCIA_TEMPORAL_ID75098336/solicitud.pdf` y anexos.
+- Archivo `05_PROCEDIMIENTO_SANCIONATORIO_EXPULSION/EXPEDIENTE_COMPLETO.pdf` o equivalente con índice y numeración.
+- Actas y partes PDI en `06_ANTECEDENTES_REGULARIZACION_PDI/` con nombres normalizados.
+- Copia del Acuerdo de Unión Civil en `07_VINCULO_FAMILIAR_ACUERDO_UNION_CIVIL/AUC.pdf`.
+- Registro de comunicaciones en `11_COMUNICACIONES_Y_GESTIONES/` con subarchivos por fecha.
 
 ## 10. Documentos que deben corregirse
 
+- Normalizar `next_document`, `previous_document` y `parent_document` en todos los front matter para usar rutas relativas homogéneas.
+- Añadir en cada documento el bloque visual obligatorio `> **ESTADO DEL DOCUMENTO**` indicando su estado exacto (p. ej. `En construcción`, `Pendiente de revisión jurídic a`).
+- Añadir separadores `---` y jerarquía Markdown consistente donde falte para garantizar conversión a PDF.
+
 ## 11. Riesgos documentales
+
+- Riesgo de pérdida de trazabilidad si no se incorporan las copias originales de resoluciones y partes policiales.
+- Riesgo de rechazo o demora en revisión jurídica por falta de documentos fuente.
+- Riesgo operativo para exportación a PDF y generación de índices automáticos debido a metadatos inconsistentes.
 
 ## 12. Recomendaciones
 
+1. Normalizar metadatos de navegación a un único formato de ruta relativa e implementar una pequeña comprobación automática (script) que valide la existencia de cada `next_document`/`previous_document`.
+2. Añadir en cada archivo el bloque `> **ESTADO DEL DOCUMENTO**` inmediatamente después del título principal, con fecha y autor de la última modificación.
+3. Incorporar las copias de las evidencias críticas en la carpeta `12_ANEXOS/` y vincularlas desde las áreas correspondientes.
+4. Crear documentos auxiliares por área (actas, partes, solicitudes, resoluciones) en lugar de apoyarse solo en `README.md`.
+5. Ejecutar una segunda pasada de auditoría tras incorporar evidencias y normalizar metadatos; objetivo: alcanzar `PASS`.
+
 ## 13. Gate de aprobación
 
-El informe deberá finalizar con uno de estos estados:
+Estado propuesto: PASS_WITH_FIXES
 
-PASS
-PASS_WITH_FIXES
-BLOCKED
+Condiciones para promover a PASS:
+- Normalizar metadatos de navegación en todos los archivos.
+- Incorporar al menos las copias de la Resolución Exenta N°2600100434997 y la Solicitud ID 75098336.
+- Incluir el bloque `> **ESTADO DEL DOCUMENTO**` en cada archivo y evidenciar los anexos en `12_ANEXOS/`.
 
-No realices cambios adicionales hasta que el resultado de esta auditoría sea revisado y aprobado.
+---
+
+Generado por: Ejecutor documental (revisión automática+manual)
