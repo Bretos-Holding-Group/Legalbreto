@@ -17,7 +17,9 @@ related_resolution: "2600100434997"
 authority: Servicio Nacional de Migraciones
 review_status: Pendiente de revisión jurídica
 
-EXPEDIENTE MAESTRO MIGRATORIO
+---
+
+# EXPEDIENTE MAESTRO MIGRATORIO
 
 Luis Fernando Breto Ruiz
 
